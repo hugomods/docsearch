@@ -1,0 +1,16 @@
+[module.hugoVersion]
+min = "0.111.3"
+# extended = true
+
+[params.hugopress.modules.docsearch.hooks.head-end]
+cacheable = true
+
+[params.hugopress.modules.docsearch.hooks.body-end]
+cacheable = true
+
+[params.docsearch]
+app_id = ""
+api_key = ""
+container = ""
+debug = false
+index_name = ""

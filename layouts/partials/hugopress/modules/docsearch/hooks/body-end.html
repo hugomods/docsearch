@@ -1,0 +1,9 @@
+{{- $js := resources.Get "mods/docsearch/init.tmpl.js" }}
+{{- $opts := dict
+  "minify" hugo.IsProduction
+  "targetPath" "js/docsearch.js"
+  "params" site.Params.docsearch
+}}
+{{- $js = $js | js.Build $opts }}
+{{- $js = slice (resources.Get "mods/docsearch/index.js") $js | resources.Concat "js/docsearch.js" }}
+<script src="{{ $js.RelPermalink }}" defer></script>

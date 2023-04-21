@@ -1,0 +1,3 @@
+{{- $css := resources.Get "mods/docsearch/index.css" }}
+{{- $css = slice $css | resources.Concat "css/docsearch.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
