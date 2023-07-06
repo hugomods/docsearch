@@ -14,7 +14,7 @@
     "@docsearch/css": "^3.3.3",
     "@docsearch/js": "^3.3.3",
     "copy-webpack-plugin": "^11.0.0",
-    "prettier": "^2.7.1",
+    "prettier": "^3.0.0",
     "prettier-plugin-go-template": "^0.0.13",
     "webpack-cli": "^5.0.1"
   },
