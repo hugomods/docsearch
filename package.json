@@ -13,7 +13,7 @@
   "devDependencies": {
     "@docsearch/css": "^4.0.0",
     "@docsearch/js": "^4.0.0",
-    "copy-webpack-plugin": "^13.0.0",
+    "copy-webpack-plugin": "^14.0.0",
     "prettier": "^3.0.0",
     "prettier-plugin-go-template": "^0.0.15",
     "webpack-cli": "^6.0.0"
